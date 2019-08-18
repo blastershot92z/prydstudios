@@ -1,0 +1,95 @@
+body{
+    background-image:url("back.jpg");
+    background-position:center top;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    background-color:#000000;
+    text-align:center;
+    margin:0;
+}
+
+#topImage{
+}
+
+#menu{
+    color: white;
+	font-weight: bold;
+    font-size:20px;
+    font-family:moonhouse;
+}
+
+a:link, a:hover{
+    color:white;
+  text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration:none;
+}
+}
+a:active{
+    color:green;
+    text-decoration:none;
+}
+#menuTable {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px 10px;
+    width:1000px;
+    /*border:dashed;*/
+    table-layout:fixed;
+}
+
+#menuTable a:hover{
+    text-decoration:underline;
+    color:lawngreen;
+}
+
+#menuTable td:hover{
+    /*width:166.66px;*/
+    /*border:dotted;*/
+    /*background-color:darkslategrey;*/
+}
+
+#logo{
+    background-image: url("flare.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:contain;
+}
+
+#menuSelected{
+    color:white;
+	   width: 9%; /* initial*/
+    text-decoration:underline;
+	border-bottom: 5px solid #24C26C;
+}
+
+#aboutColumns{
+    padding:0;
+    margin:0;
+}
+
+h1{
+    font-size:23px;
+}
+
+h2{
+    font-size:19px;
+}
+
+p{
+    font-size:15px;
+}
+
+#aboutLogo{
+    background-color:white;
+}
+
+#aboutBody{
+    /*background-color:darkcyan;*/
+    border-spacing:0px;
+    padding:100px 10px;
+}
